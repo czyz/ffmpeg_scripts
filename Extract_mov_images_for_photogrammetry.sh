@@ -3,7 +3,7 @@
 # Zach Fine (zach@zachfine.com) - 6/3/2020
 
 #construct something like this:
-#ffmpeg -i /Volumes/MEDIA_HUC_206/Avid\ MediaFiles/MXF/20200220_Ep206_Day_006_Drone_mxf_video/10pt6_V1_Plates_1SER26p370cd160-b8c0-f823023cb947V.mxf -filter:v "crop=in_w:in_h*9/10:0:in_h*.3/10" -r .2 DJI_002_%04d.png
+#ffmpeg -i /Volumes/drive/Avid\ MediaFiles/MXF/20200220_Ep206_Day_006_Drone_mxf_video/10pt6_V1_Plates_1SER26p370cd160-b8c0-f823023cb947V.mxf -filter:v "crop=in_w:in_h*9/10:0:in_h*.3/10" -r .2 DJI_002_%04d.png
 
 
 if [ -x "/usr/local/bin/ffmpeg" ]; then
